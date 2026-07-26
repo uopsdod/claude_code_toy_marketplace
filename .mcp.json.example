@@ -9,10 +9,9 @@
     "context7": {
       "type": "http",
       "url": "https://mcp.context7.com/mcp",
-      "args": [
-        "--header",
-        "CONTEXT7_API_KEY: YOUR_CONTEXT7_API_KEY"
-      ]
+      "headers": {
+        "CONTEXT7_API_KEY": "YOUR_CONTEXT7_API_KEY"
+      }
     },
     "sentry": {
       "type": "http",
